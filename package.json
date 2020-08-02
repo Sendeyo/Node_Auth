@@ -1,0 +1,24 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Node authentication with passport",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sendeyo/Node_Auth.git"
+  },
+  "author": "Max Sendeyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sendeyo/Node_Auth/issues"
+  },
+  "homepage": "https://github.com/Sendeyo/Node_Auth#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
