@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="col-6 m-auto">
+            <div class="card mt-5">
+                <div class="card-header">
+                    <p class="h3 text-center"><b>REGISTER</b></p>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <form action="/register" method="POST" class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Email" class="form-control">
+                            <br>
+                            <input type="password" name="password" id="password" placeholder="Password" class="form-control">
+                            <br>
+                            <input type="password" name="confirm" id="confirm" placeholder="Confirm Password" class="form-control">
+                            <br>
+                            <input type="submit" value="Register" class="form-control btn btn-success">
+                        </form>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="/login">Login instead</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
